@@ -1,0 +1,105 @@
+/* Global =========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* Logo ============================================= */
+
+header {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    background: rgba(255, 255, 255, 0.37);
+    z-index: 999;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Conteudo =========================================== */
+
+#container {
+    font-size: 30px;
+    background: #f5147d;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    overflow-x: auto;
+}
+
+section button{
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 20px;
+    border-top: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-right: 20px;
+}
+
+section button:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.card {
+    width: min(98vw, 100%);
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Data-Table =========================================== */
+
+#data-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    margin-top: -7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#table {
+    width: 100%;
+    border-spacing: 1rem;
+    color: white;
+    font-size: 30px;
+}
+
+thead tr th {
+    background: #c01f78;
+    color: #dd9fc1;
+    opacity: 0.6;
+}
+
+tbody td:hover {
+    opacity: 0.9;
+}
+
+table td {
+    background: #ee2593;
+}
+
+/* Footer =========================================== */
+
+footer p {
+    text-align: center;
+    opacity: 0.5;
+}
